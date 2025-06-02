@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button.hidden {
+    display: none;
+}
+
+/* Quiz elements */
+#question-text {
+    margin-bottom: 20px;
+}
+
+#choices-list {
+    list-style: none;
+    padding: 0;
+}
+
+#choices-list li {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    /* max-width: 300px; */
+}
+
+#choices-list button {
+    width: 100%;
+    text-align: left;
+    background-color: #ecf0f1;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+#choices-list button:hover {
+    background-color: #d0e6f7;
+}
+
+/* Result container */
+#result-container {
+    margin-top: 20px;
+}
+
+/* Utility class */
+.hidden {
+    display: none;
+}
