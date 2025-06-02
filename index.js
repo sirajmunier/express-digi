@@ -47,7 +47,7 @@ app.delete('/teas/:id', (req,res) => {
     if (index === -1){
         return res.status(404).send('tea not found')
     }
-    
+
     teaData.splice(index, 1)
     return res.status(200).send('deleted')
 })
@@ -61,3 +61,5 @@ app.get("/", (req, res) => {
 app.get("/ice-tea", (req, res) => {
     res.send("What ice tea would you prefer")
 })
+
+//just a test
